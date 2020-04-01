@@ -1,4 +1,4 @@
-.header-line{
+.header-line {
 	list-style: none;
 	font-size: 36px;
 	display: flex;
@@ -6,14 +6,14 @@
 	justify-content: center;
 	margin-top: 35px;
 }
-
-.ahref{
+.header-menu {
+	display: flex;
+	flex-direction: row;
+	flex: 1 1 auto;
+	justify-content: space-evenly;
+}
+.ahref {
 	text-decoration: none;
 	color: cornflowerblue;
 	text-shadow: black;
-}
-
-.ahref:not(:first-child) {
-	margin-left: 200px;
-
 }
